@@ -1,7 +1,8 @@
 # zeek-oui
 Zeek script to enable OUI logging in the conn log
 
-Download your script to your zeek host
+# Setting up
+Download the script to your zeek host
 ```
 wget https://raw.githubusercontent.com/iamckn/zeek-oui/master/oui-logging.zeek
 sudo mv oui-logging.zeek /usr/local/zeek/share/zeek/policy/protocols/conn/
